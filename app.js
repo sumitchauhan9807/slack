@@ -6,6 +6,7 @@ app.get('/', function (req, res) {
 })
 
 app.get('/sumit', function (req, res) {
+	console.log('api is hit')
 	res.send('Hello i am sumit');
 })
 var server = app.listen(5000, function () {
